@@ -8,12 +8,16 @@
 
 .container{
   margin: auto;
-  width: 65%;
+  width: 66%;
+}
+
+.debug{
+  display: flex;
 }
 
 header{
-  display: flex;
-  height: 85px;
+  padding-top: 20px;
+  padding-bottom: 20px;
   background-color: #ADD8E6;
 }
 
@@ -60,11 +64,46 @@ header{
 .jumbotron{
   padding: 50px;
   background-color: #00008B;
+  border-bottom: 4px solid #ADD8E6;
 }
 
 .content{
   background-color: #EE82EE;
-  height: 410px;
-  width: 75%;
+  height: 415px;
+  width: 80%;
   margin: auto;
+}
+
+main{
+  background-color: #fef100;
+}
+
+.slide{
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.first{
+  background-color: #FFFF;
+}
+
+.second{
+  background-color: #D3D3D3;
+}
+
+.medium-box{
+  background-color: #1E90FF;
+  height: 520px;
+  width: 60%;
+}
+
+.small-box{
+  background-color: #FFC0CB;
+  height: 520px;
+  width: 40%;
+}
+
+.big-box{
+  background-color: #228B22;
+  height: 935px;
 }
