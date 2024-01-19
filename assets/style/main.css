@@ -7,8 +7,9 @@
 }
 
 .container{
-  margin: auto;
-  width: 66%;
+  margin: 0 auto;
+  max-width: 98%;
+  width: 1250px;
 }
 
 .debug{
@@ -40,8 +41,7 @@ header{
 }
 
 .head nav{
-  width: 60%;
-  height: 100%;
+  width: 750px;
   justify-content: center;
 }
 
@@ -59,8 +59,7 @@ header{
 }
 
 .block{
-  width: 20%;
-  height: 100%;
+  width: 250px;
 }
 
 .flex-end{
@@ -76,7 +75,8 @@ header{
 .content{
   background-color: #EE82EE;
   height: 415px;
-  width: 80%;
+  max-width: 98%;
+  width: 945px;
   margin: auto;
 }
 
@@ -105,13 +105,13 @@ main{
 .medium-box{
   background-color: #1E90FF;
   height: 520px;
-  width: 60%;
+  width: 750px;
 }
 
 .small-box{
   background-color: #FFC0CB;
   height: 520px;
-  width: 40%;
+  width: 500px;
 }
 
 .big-box{
@@ -131,12 +131,12 @@ main{
 .social{
   background-color: #F08080;
   height: 600px;
-  width: 30%;
+  width: 370px;
 }
 
 .info{
   background-color: #20B2AA;
-  width: 17.5%;
+  width: 220px;
 }
 
 .end{
